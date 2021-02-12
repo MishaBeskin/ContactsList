@@ -8,21 +8,6 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles.0dec2302c19602b350a9.css"></head>
 <body>
-  <script>
-    (function(){
-      var redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      if (redirect && redirect != location.href) {
-        history.replaceState(null, null, redirect);
-        // REMOVE THIS - just showing the redirect route in the UI
-        document.body.setAttribute('message', 'This page was redirected by 404.html, from the route: ' + redirect);
-      }
-      else {
-        // REMOVE THIS - just showing the redirect route in the UI
-        document.body.setAttribute('message', 'This page was loaded directly from the index.html file');
-      }
-    })();
-  </script>
   <app-root></app-root>
 <script src="runtime.2aee3eb35efae586b1ad.js" defer></script><script src="polyfills.35a5ca1855eb057f016a.js" defer></script><script src="scripts.a73844de5f291be94c3b.js" defer></script><script src="main.e52b15eb2fb3f27884d9.js" defer></script></body>
 </html>
